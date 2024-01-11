@@ -9,7 +9,7 @@ Recognizing the need for a robust visualization tool that can represent this dat
 The primary objective was to create a visualization of an earthquake dataset, showcasing the magnitude and depth of seismic events worldwide. Here's how I approached the task:
 
 ### Data Acquisition
-I sourced the dataset directly from the USGS's GeoJSON Feed, selecting the "Past 7 Days - All Earthquakes" dataset. This data is updated every 5 minutes and is publicly available on the [USGS GeoJSON page](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
+I sourced the dataset directly from the USGS's GeoJSON Feed, selecting the "Past 7 Days - All Earthquakes" dataset. This data is updated every minute and is publicly available on the [USGS GeoJSON page](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
 
 ### Implementation
 Utilizing Leaflet, a leading open-source JavaScript library for interactive maps, I developed a map that plots each earthquake according to its geographical coordinates. The markers on the map represent the earthquakes, with their size proportional to the earthquake's magnitude, and the color indicating the depth:
