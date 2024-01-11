@@ -1,3 +1,8 @@
+Live Demo: https://mqkhilji.github.io/leaflet-challenge/
+
+
+
+
 # USGS Earthquake Data Visualization Tool
 
 ## Background
