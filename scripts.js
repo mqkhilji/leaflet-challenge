@@ -4,7 +4,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
 }).addTo(mymap);
 
-// Define getColor function here (same as before)
+
 function getColor(d) {
     return d > 90  ? '#800026' :
            d > 70  ? '#BD0026' :
@@ -14,7 +14,7 @@ function getColor(d) {
            d > -10   ? '#FEB24C' :
                       '#FFEDA0';
 }
-// Define legend control here (same as before)
+
 var legend = L.control({position: 'bottomright'});
 
 legend.onAdd = function (mymap) {
